@@ -21,18 +21,17 @@ namespace TaskExercise
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("|*********************************|\n");
             Console.ResetColor();
-            CheckWord();
-            
+            CheckWord();        
         }
         public void CheckWord()
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("Enter a words to check if its Palindrome \n");
+            Console.WriteLine("Enter a word, phase, or number \n");
             check = Console.ReadLine().ToLower();
             if (check.Equals(""))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Idiot!! you FORGOT to enter a word");
+                Console.WriteLine("Hey!!!You forgot to enter a word, phase, or number");
                 Console.ResetColor();
                 CheckWord();
             }
@@ -58,7 +57,7 @@ namespace TaskExercise
             }
             else
             {
-                Console.WriteLine("\nThe word: {0} you enter is not a Palindrome", check);
+                Console.WriteLine("\nThe word: {0} is not a Palindrome", check);
                 return true;
             }
 
