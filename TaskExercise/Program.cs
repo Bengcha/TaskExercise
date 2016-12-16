@@ -10,9 +10,12 @@ namespace TaskExercise
     {
         static void Main(string[] args)
         {
-            PalindromeCheck startprogram = new PalindromeCheck();
-            startprogram.DisplayWelcome();
-            Console.ReadKey();
+            TriangleMarker triangle = new TriangleMarker();
+            triangle.DisplayWelcome();
+            Console.ReadLine();
+            //PalindromeCheck startprogram = new PalindromeCheck();
+            //startprogram.DisplayWelcome();
+            //Console.ReadKey();
         }
     }
 }
