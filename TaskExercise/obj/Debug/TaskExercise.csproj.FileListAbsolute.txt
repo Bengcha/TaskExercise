@@ -1,1 +1,6 @@
 C:\Users\Beng\Desktop\TaskExercise\TaskExercise\bin\Debug\TaskExercise.exe.config
+C:\Users\Beng\Desktop\TaskExercise\TaskExercise\bin\Debug\TaskExercise.exe
+C:\Users\Beng\Desktop\TaskExercise\TaskExercise\bin\Debug\TaskExercise.pdb
+C:\Users\Beng\Desktop\TaskExercise\TaskExercise\obj\Debug\TaskExercise.csprojResolveAssemblyReference.cache
+C:\Users\Beng\Desktop\TaskExercise\TaskExercise\obj\Debug\TaskExercise.exe
+C:\Users\Beng\Desktop\TaskExercise\TaskExercise\obj\Debug\TaskExercise.pdb

@@ -10,6 +10,9 @@ namespace TaskExercise
     {
         static void Main(string[] args)
         {
+            PalindromeCheck startprogram = new PalindromeCheck();
+            startprogram.DisplayWelcome();
+            Console.ReadKey();
         }
     }
 }
